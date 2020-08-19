@@ -1,0 +1,37 @@
+{
+	"name": "mini",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"autoprefixer": "^9.8.6",
+		"browser-sync": "^2.26.12",
+		"del": "^3.0.0",
+		"gulp-cache": "^1.1.0",
+		"gulp-clean-css": "^4.0.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-rigger": "^0.5.8",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.1",
+		"gulp-watch": "^4.1.1",
+		"imagemin": "^7.0.1",
+		"imagemin-jpeg-recompress": "^6.0.0",
+		"imagemin-mozjpeg": "latest",
+		"imagemin-pngquant": "latest"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-imagemin": "latest"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "mini"
+	},
+	"author": "ipoliarush",
+	"license": "ISC"
+}
