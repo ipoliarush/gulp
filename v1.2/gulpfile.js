@@ -40,7 +40,7 @@ var path = {
     css: rep + 'app/css/*.css',
     img: rep + 'app/img/**/*.*', //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
     fonts: rep + 'app/fonts/**/*.*',
-    css: rep + 'app/code/*.php',
+    php: rep + 'app/code/**/*.php',
   },
   watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
     html: rep + 'app/**/*.html',
@@ -242,7 +242,7 @@ gulp.task('cache:clear', function(done) {
 });
 
 // сборка
-gulp.task('build', gulp.series('clean:build', 'vendorCss:build', 'vendorJs:build', 'html:build', 'js:build', 'scss:build', 'css:build', 'fonts:build', 'image:build', 'php:build' function(done) {
+gulp.task('build', gulp.series('clean:build', 'vendorCss:build', 'vendorJs:build', 'html:build', 'js:build', 'scss:build', 'css:build', 'fonts:build', 'image:build', 'php:build', function(done) {
   done();
 }));
 
